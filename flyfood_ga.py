@@ -75,7 +75,7 @@ def crossing(r, parent1, parent2, values):
     return child
 
 
-def reproduction(r, crossing, winners):
+def reproduction(r, winners):
     childs = []
 
     for w in range(int(len(winners)/2)):
@@ -155,7 +155,7 @@ print('\n')
 counter = 1
 while True:
     winners = tournament(population, population_size, weights_array)
-    generation = reproduction(r, crossing, winners)
+    generation = reproduction(r, winners)
     mutation(generation)
     smaller = min(generation)
 
