@@ -1,5 +1,5 @@
 '''
-Resolução do problema do caixeiro viajante pelo método de Computação Evolutiva
+Resolução do problema do caixeiro viajante através de Computação Evolutiva
 
 Autor: Bruno Olimpio dos Santos
 '''
